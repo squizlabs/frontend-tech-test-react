@@ -1,0 +1,16 @@
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--oxford-blue);
+  &__link {
+    padding: 1rem;
+    background-color: var(--orange-web);
+    color: var(--black);
+    transition: background-color 0.3s ease-in-out;
+    &:hover,
+    &:focus {
+      background-color: var(--platinum);
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.instructions {
+  &__container {
+    margin: 2.5rem auto;
+    max-width: 1200px;
+    background-color: var(--white);
+    min-height: 100vh;
+    padding: 1rem 2rem;
+  }
+}
